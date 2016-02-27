@@ -1,11 +1,14 @@
 * { margin: 0; padding: 0; outline: 0; }
 
 body {
+    width: 1000px;
+    height: 960px;
     font-size: 12px;
     line-height: 18px;
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     color: #383838;
     background: #3b3b3b url(images/body.png);
+    margin: 0 auto;
 }
 
 a { color: #0252aa; text-decoration: none; cursor: pointer; }
@@ -24,15 +27,19 @@ textarea { overflow: auto; }
 .left, .alignleft { float: left; display: inline; }
 .right, .alignright { float: right; display: inline; }
 
-.shell { width: 920px; margin: 0 auto; background: url(images/shell.png) repeat-y 0 0; padding: 0 57px 0 57px; position: relative; }
+.shell { width: 90%; margin: 0 auto; background: url(images/shell.png) repeat-y 0 0; padding: 0 57px 0 57px; position: relative; }
 
 #header { padding-top: 30px; }
 #slider { height: 300px; position: relative; z-index: 10; }
 
+#logo{
+    height: 11.11%;
+    width: 30%;
+}
 
 #cover-image {
-    height: 300px;
-    width: 900px;
+    height: 33.33%;
+    width: 90%;
 }
 
 #login-details { position: absolute; right: 60px; top: 16px; font-size: 12px; line-height: 16px; color: #707070; }
@@ -75,7 +82,7 @@ textarea { overflow: auto; }
     background: linear-gradient(to bottom, #f2edea 0%, #c0bebf 100%);
     font-weight: 600;
     height: 60px;
-    width: 900px;
+    width: 90%;
 }
 #navigation:after,
 #navigation ul:after {
