@@ -11,7 +11,7 @@ body {
 
 #page {
     margin: 0 auto;
-    width: 70%;
+    width: 63%;
     height: 100%;
 }
 
@@ -44,11 +44,11 @@ textarea { overflow: auto; }
 #cover-image {
     /*height: 20%;
     width: 100%;*/
-    max-width:90%;
+    max-width:100%;
     max-height:100%;
 }
 
-#login-details { position: absolute; right: 60px; top: 16px; font-size: 12px; line-height: 16px; color: #707070; }
+#login-details { position: absolute; right: 10%; top: 10%; font-size: 12px; line-height: 16px; color: #707070; }
 #login-details #user { color: #0182b5; text-decoration: underline; font-weight:bold; }
 #login-details #user:hover { color: #000; text-decoration: underline; }
 #login-details .sum { color: #0182b5; }
@@ -101,6 +101,7 @@ textarea { overflow: auto; }
     line-height: 52px;
     padding: 0 28px;
     text-decoration: none;
+
 }
 #navigation ul {
     list-style: none;
@@ -114,11 +115,7 @@ textarea { overflow: auto; }
 #navigation > ul > li {
     float: left;
 }
-#navigation > ul > li:first-child a {
-    border-radius: 5px 0 0 5px;
-    -moz-border-radius: 5px 0 0 5px;
-    -webkit-border-radius: 5px 0 0 5px;
-}
+
 #navigation > ul > li.active a,
 #navigation > ul > li:hover > a {
     box-shadow: inset 0 -2px 3px rgba(0, 0, 0, 0.15);
@@ -195,8 +192,8 @@ textarea { overflow: auto; }
 
 #main { padding-top: 51px; padding-bottom: 41px; z-index: 1; }
 
-#sidebarone { float: left; display: inline; width: 20%; padding: 6px 0; }
-#sidebartwo { float: left; display: inline; width: 20%; padding: 6px 0 0 20px; }
+#sidebarone { float: left; display: inline; width: 20%; padding: 0.7% 0; }
+#sidebartwo { float: left; display: inline; width: 20%; padding: 0.7% 0 0 2.2222%; }
 .sidebar h4 { border-bottom: solid 4px #eaeaea; padding: 0 0 8px 1px; }
 
 .sidebar .categories { list-style: none; }
@@ -204,7 +201,7 @@ textarea { overflow: auto; }
 .sidebar .categories ul li { border-bottom: solid 1px #d8d8d8; background: url(images/list-image.png) no-repeat 0 center; padding-left: 18px; }
 .sidebar .categories ul li a { color: #929292; }
 
-#content { padding-left:30px; float: left; display: inline; width: 50%; height: 40% }
+#content { padding-left:3.3333%; float: left; display: inline; width: 50%; height: 40% }
 #content h3 { padding: 0 0 7px 0px; border-bottom: solid 4px #eaeaea; margin-bottom: 12px; }
 
 .products ul { list-style: none; position: relative; width: 100%; }
@@ -216,13 +213,12 @@ textarea { overflow: auto; }
 .products img { width: 100%; height: 100%; }
 .product .buy-btn { position: absolute; background: url(images/buy-btn.png) repeat-x 0 0; width:100%; height: 20%; color: #fff; font-size: 12px; line-height: 31px; text-transform: uppercase; font-weight: bold; z-index: 10; white-space: nowrap;}
 .product .buy-btn:hover { text-decoration: none; }
-.product .buy-btn .price {  background: url(images/price.png) repeat-x 0 0; font-size: 22px; line-height: 29px; position: absolute; top: 0; right: 0; height: 100%; }
+/*.product .buy-btn .price {  background: url(images/price.png) repeat-x 0 0; font-size: 22px; line-height: 29px; position: absolute; top: 0; right: 0; height: 100%; }
 .product .buy-btn .price .low { font-size: 14px; vertical-align: baseline; }
-.product .buy-btn .price .high { font-size: 11px; line-height: 14px; vertical-align: super; }
+.product .buy-btn .price .high { font-size: 11px; line-height: 14px; vertical-align: super; }*/
 
-.product .book-name { font-size: 12px; line-height: 20px; color: #0182b5; font-family: 'Georgia', Arial, serif; display: block; }
-.product .author { font-size: 11px; line-height: 14px; color: #3d3d3d; font-family: 'Georgia', Arial, serif; padding: 0 0 9px 1px; display: block; }
-.product .description { font-size: 11px; line-height: 16px; color: #878787; }
+
+.product .description { font-size: 1em; line-height: 1.7777%; color: #878787; width: 100%; word-wrap: break-word;}
 
 
 
